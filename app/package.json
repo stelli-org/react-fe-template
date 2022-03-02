@@ -1,0 +1,26 @@
+{
+  "name": "surveys-manager-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "format": "yarn prettier --write ."
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.147",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.13",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "swc-loader": "^0.1.15",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
