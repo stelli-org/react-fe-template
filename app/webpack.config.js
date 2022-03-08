@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const swcOptions = require("./swc.config.json");
 
 module.exports = {
   entry: "./src/index.tsx",
@@ -25,7 +24,6 @@ module.exports = {
         use: [
           {
             loader: "swc-loader",
-            options: swcOptions,
           },
         ],
       },

@@ -1,8 +1,5 @@
 import ReactDOM from "react-dom";
-
-function App({ text }: { text?: string }) {
-  return <h1>{text}</h1>;
-}
+import App from './App';
 
 ReactDOM.render(
   <App text="Setup is working 🚀" />,

@@ -12,8 +12,13 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "__tests__/*": ["../__tests__/*"]
+    }
   },
   "exclude": ["node_modules", "build"],
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "__tests__"]
 }
