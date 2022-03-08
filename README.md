@@ -1,3 +1,3 @@
-# surveys-manager
+# react fe template
 
-> Surveys manager FE and BE using Apollo stack ❤️
+> Template for our fe projects ❤️
